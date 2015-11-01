@@ -1,0 +1,36 @@
+{
+	// Map size (divisible by 32)
+	"SIZE" : 128,
+
+	// Tileset
+	"TILE" : "assets/tiles.png",
+
+	// Trigger file
+	// Can link to multiple trigger files by:
+	// "TRIG" :
+	// [
+	//  "clear.lua",
+	//	"explode.lua",
+	// 	"create.lua"
+	// ]
+	"TRIG" : "trig.lua",
+
+	// Entities
+	"ENTI" :
+	[
+		[
+			"goblin",
+			"entities/goblin"
+		],
+		[
+			"spiketrap",
+			"entities/spike"
+		]
+	],
+
+	// Terrain
+	"TERR" :
+	[
+
+	]
+}
